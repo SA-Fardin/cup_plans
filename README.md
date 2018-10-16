@@ -1,2 +1,2 @@
 # Cup_Plans
-https://sa-fardin.github.io/smashing/
+https://sa-fardin.github.io/cup_plans/
