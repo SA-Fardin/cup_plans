@@ -382,7 +382,7 @@ body {
 
 .cupbronze {
   width: 350px;
-  height: 400px;
+  height: 442px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,11 +416,11 @@ body {
     font-size: 20px;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 18.5px; }
+    margin-bottom: 30px; }
 
 .cupgold {
   width: 350px;
-  height: 400px;
+  height: 442px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,11 +454,11 @@ body {
     font-size: 20px;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 18.5px; }
+    margin-bottom: 30px; }
 
 .cupsilver {
   width: 350px;
-  height: 400px;
+  height: 442px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -492,7 +492,7 @@ body {
     font-size: 20px;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 18.5px; }
+    margin-bottom: 30px; }
 
 .cupbronze {
   display: -webkit-box;
