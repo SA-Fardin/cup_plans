@@ -1,0 +1,178 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+@import "normalize";
+
+body {
+	background-color: #fdde7e;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(60%);
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+
+.cupbronze {
+	width: 350px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ffffff;
+	margin-right: 10px;
+	margin-left: 10px;
+	&__two-dollar {
+		color: #02995b;
+		font-family: miso;
+		font-size: 70px;
+		margin-top: 17.5px;
+		margin-bottom: 11.5px;
+	}
+    
+    &__h-three {
+    	color: #333333;
+    	font-family: miso;
+    	font-weight: normal;
+		font-size: 56px;
+		margin-top: 20px;
+		margin-bottom: 17px;
+    }
+
+	&__img {
+		
+	}
+
+	&__p {
+		width: 150px;
+		color: #333333;
+		font-family: lato;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 18.5px;
+	}
+}
+
+.cupgold {
+	width: 350px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ffffff;
+	margin-right: 10px;
+	margin-left: 10px;
+	&__three-dollar {
+		color: #02995b;
+		font-family: miso;
+		font-size: 70px;
+		margin-top: 17.5px;
+		margin-bottom: 11.5px;
+	}
+	
+    &__h-three {
+    	color: #333333;
+    	font-family: miso;
+    	font-weight: normal;
+		font-size: 56px;
+		margin-top: 20px;
+		margin-bottom: 17px;
+		
+    }
+    
+	&__img {
+		
+	}
+
+	&__p {
+		width: 150px;
+		color: #333333;
+		font-family: lato;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 18.5px;
+	}
+}
+
+.cupsilver {
+	width: 350px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    // transition: .5s ease-in-out;
+    margin-right: 10px;
+	margin-left: 10px;
+    &__two-and-half-dollar {
+    	color: #02995b;
+		font-family: miso;
+		font-size: 70px;
+		margin-top: 17.5px;
+		margin-bottom: 11.5px;
+	}
+	
+    &__h-three {
+    	color: #333333;
+    	font-family: miso;
+    	font-weight: normal;
+		font-size: 56px;
+		margin-top: 20px;
+		margin-bottom: 17px;
+    }
+    
+	&__img {
+		
+	}
+
+	&__p {
+		width: 150px;
+		color: #333333;
+		font-family: lato;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 18.5px;
+	}
+}
+
+
+ // all style using CSS Flex
+ 
+.cupbronze {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cupgold {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cupsilver {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+@media screen and (max-device-width:480px){
+}
